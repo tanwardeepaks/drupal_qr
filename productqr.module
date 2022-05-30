@@ -1,0 +1,14 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function productqr_theme() {
+  return [
+    'productqr_block' => [
+      'variables' => [
+           'qrfile' => NULL,
+       
+      ],
+    ],
+  ];
+}

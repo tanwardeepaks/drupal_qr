@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - productqr
+  theme:
+    - bartik
+id: productqrblock_2
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: productqr_block
+settings:
+  id: productqr_block
+  label: 'Productqr Block'
+  provider: productqr
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      item: item
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
