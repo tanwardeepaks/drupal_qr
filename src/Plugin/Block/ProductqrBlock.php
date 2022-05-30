@@ -49,20 +49,6 @@ class ProductqrBlock extends BlockBase {
 		}
 	
 	
-	
-	
-	
-
-	
-	//$node_storage = \Drupal::entityTypeManager()->getStorage('node');
-	//$node = $node_storage->load($node_slug);
-	
-	//$output[$i]['title'] =$node->get('title')->get(0)->get('value')->getValue();
-	/*if( !file_exists('http://localhost:90/JugaadTech/upload/'.$node_slug.'.png')){
-				\PHPQRCode\QRcode::png('http://localhost:90/JugaadTech/node/'.$node_slug , 'upload//'.$node_slug.'.png', 'L', 4, 2);
-	}
-	$file_path = 'http://localhost:90/JugaadTech/upload/'.$node_slug.'.png';
-	*/
 
 return [
       '#theme' => 'productqr_block',
